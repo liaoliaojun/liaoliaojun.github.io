@@ -76,6 +76,27 @@ h1 {
   line-height: 1.9;
 }
 
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stack li {
+  padding: 7px 12px;
+  border: 1px solid #d9e4ee;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.64);
+  color: #4a5568;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
